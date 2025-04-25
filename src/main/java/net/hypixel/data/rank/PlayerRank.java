@@ -10,8 +10,7 @@ import java.util.stream.Collectors;
 public enum PlayerRank {
     NORMAL(1),
     YOUTUBER(2),
-    GAME_MASTER(3),
-    ADMIN(4),
+    STAFF(3),
     ;
 
     private static final Collection<PlayerRank> VALUES = Arrays.asList(values());
